@@ -1,0 +1,1 @@
+import{i as r,b as n,c as o,D as s}from"./Di_xg8t3.js";const t={};function c(e,a){return n(),o("strong",null,[s(e.$slots,"default")])}const _=Object.assign(r(t,[["render",c]]),{__name:"ProseStrong"});export{_ as default};

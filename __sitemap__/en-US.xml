@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/portfolio/__sitemap__/style.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://minion5.github.io/portfolio/portfolio/</loc>
+        <xhtml:link rel="alternate" hreflang="en-US" href="https://minion5.github.io/portfolio/portfolio/" />
+        <xhtml:link rel="alternate" hreflang="ru-RU" href="https://minion5.github.io/portfolio/portfolio/ru/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://minion5.github.io/portfolio/portfolio/" />
+        <image:image>
+            <image:loc>https://mc.yandex.ru/watch/</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://minion5.github.io/portfolio/images/monster.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://minion5.github.io/portfolio/images/waving-hand.svg</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://minion5.github.io/portfolio/portfolio/about/</loc>
+        <xhtml:link rel="alternate" hreflang="en-US" href="https://minion5.github.io/portfolio/portfolio/about/" />
+        <xhtml:link rel="alternate" hreflang="ru-RU" href="https://minion5.github.io/portfolio/portfolio/ru/about/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://minion5.github.io/portfolio/portfolio/about/" />
+    </url>
+    <url>
+        <loc>https://minion5.github.io/portfolio/portfolio/projects/</loc>
+        <xhtml:link rel="alternate" hreflang="en-US" href="https://minion5.github.io/portfolio/portfolio/projects/" />
+        <xhtml:link rel="alternate" hreflang="ru-RU" href="https://minion5.github.io/portfolio/portfolio/ru/projects/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://minion5.github.io/portfolio/portfolio/projects/" />
+    </url>
+    <url>
+        <loc>https://minion5.github.io/portfolio/portfolio/support/</loc>
+        <xhtml:link rel="alternate" hreflang="en-US" href="https://minion5.github.io/portfolio/portfolio/support/" />
+        <xhtml:link rel="alternate" hreflang="ru-RU" href="https://minion5.github.io/portfolio/portfolio/ru/support/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://minion5.github.io/portfolio/portfolio/support/" />
+    </url>
+    <url>
+        <loc>https://minion5.github.io/portfolio/portfolio/projects/en/apollon/</loc>
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/en/apollon/" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/en/apollon/" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://minion5.github.io/portfolio/portfolio/projects/en/canvloop/</loc>
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/en/canvloop/" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/en/canvloop/" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://minion5.github.io/portfolio/portfolio/projects/en/framory/</loc>
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/en/framory/" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/en/framory/" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://minion5.github.io/portfolio/portfolio/projects/en/itd-sdk/</loc>
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/en/itd-sdk/" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/en/itd-sdk/" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://minion5.github.io/portfolio/portfolio/projects/en/madd/</loc>
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/en/madd/" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/en/madd/" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://minion5.github.io/portfolio/portfolio/projects/en/marlowmc/</loc>
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/en/marlowmc/" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/en/marlowmc/" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://minion5.github.io/portfolio/portfolio/projects/en/nesterov/</loc>
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/en/nesterov/" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/en/nesterov/" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://minion5.github.io/portfolio/portfolio/projects/en/ontlekt/</loc>
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/en/ontlekt/" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/en/ontlekt/" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://minion5.github.io/portfolio/portfolio/projects/en/ontprof/</loc>
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/en/ontprof/" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/en/ontprof/" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://minion5.github.io/portfolio/portfolio/projects/en/portfolio/</loc>
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/en/portfolio/" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/en/portfolio/" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://minion5.github.io/portfolio/portfolio/projects/en/rasena/</loc>
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/en/rasena/" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/en/rasena/" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://minion5.github.io/portfolio/portfolio/projects/en/readme/</loc>
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/en/readme/" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/en/readme/" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://minion5.github.io/portfolio/portfolio/projects/en/veyra/</loc>
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/en/veyra/" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/en/veyra/" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://minion5.github.io/portfolio/portfolio/projects/ru/apollon/</loc>
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/ru/apollon/" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/ru/apollon/" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://minion5.github.io/portfolio/portfolio/projects/ru/canvloop/</loc>
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/ru/canvloop/" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/ru/canvloop/" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://minion5.github.io/portfolio/portfolio/projects/ru/framory/</loc>
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/ru/framory/" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/ru/framory/" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://minion5.github.io/portfolio/portfolio/projects/ru/itd-sdk/</loc>
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/ru/itd-sdk/" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/ru/itd-sdk/" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://minion5.github.io/portfolio/portfolio/projects/ru/madd/</loc>
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/ru/madd/" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/ru/madd/" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://minion5.github.io/portfolio/portfolio/projects/ru/marlowmc/</loc>
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/ru/marlowmc/" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/ru/marlowmc/" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://minion5.github.io/portfolio/portfolio/projects/ru/nesterov/</loc>
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/ru/nesterov/" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/ru/nesterov/" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://minion5.github.io/portfolio/portfolio/projects/ru/ontlekt/</loc>
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/ru/ontlekt/" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/ru/ontlekt/" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://minion5.github.io/portfolio/portfolio/projects/ru/ontprof/</loc>
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/ru/ontprof/" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/ru/ontprof/" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://minion5.github.io/portfolio/portfolio/projects/ru/portfolio/</loc>
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/ru/portfolio/" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/ru/portfolio/" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://minion5.github.io/portfolio/portfolio/projects/ru/rasena/</loc>
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/ru/rasena/" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/ru/rasena/" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://minion5.github.io/portfolio/portfolio/projects/ru/readme/</loc>
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/ru/readme/" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/ru/readme/" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://minion5.github.io/portfolio/portfolio/projects/ru/veyra/</loc>
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/ru/veyra/" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://minion5.github.io/portfolio/portfolio/projects/ru/veyra/" hreflang="en-US" />
+    </url>
+</urlset>
+<!-- XML Sitemap generated by @nuxtjs/sitemap v8.0.15 at 2026-05-06T16:36:07.307Z -->

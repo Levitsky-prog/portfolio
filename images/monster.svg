@@ -1,0 +1,109 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" style="overflow: visible;">
+    <defs>
+        <!-- Встроенные CSS стили и анимации -->
+        <style>
+            .robot {
+                /* Небольшое парение всего логотипа */
+                animation: float 3s linear(
+                    0,
+                    0.009 1.4%,
+                    0.032 2.8%,
+                    0.131 6%,
+                    0.265 9.1%,
+                    0.675 17.6%,
+                    0.88 22.8%,
+                    0.953 25.2%,
+                    1.014 27.7%,
+                    1.062 30.3%,
+                    1.094 32.9%,
+                    1.121 37.2%,
+                    1.121 42.2%,
+                    1.102 46.7%,
+                    1.019 61.2%,
+                    0.989 71.5%,
+                    0.985 81.1%,
+                    1
+                ) infinite;
+            }
+
+            /* Моргание глаз */
+            .eyelid {
+                fill: #6B537E;
+                transform-origin: top;
+                transform-box: fill-box;
+                animation: blink 4s infinite;
+            }
+
+            /* Анимация рук: мгновенный переворот вверх/вниз */
+            .left-arm {
+                /* Точка крепления левой руки к телу (по оси Y это 64.08px) */
+                transform-origin: 0px 64.08px;
+                animation: flapArm 1.5s infinite;
+            }
+
+            .right-arm {
+                /* Точка крепления правой руки к телу (по оси Y это 64.09px) */
+                transform-origin: 0px 64.09px;
+                animation: flapArm 1.5s infinite;
+            }
+
+            @keyframes float {
+                0%, 100% { transform: translateY(0px); }
+                50% { transform: translateY(-10px); }
+            }
+
+            /* Классическое моргание */
+            @keyframes blink {
+                0%, 88%, 100% { transform: scaleY(0); } 
+                90%, 96% { transform: scaleY(1); }    
+                93% { transform: scaleY(0.2); }
+            }
+
+            /* Резкий пиксельный перескок рук (вверх-вниз) */
+            @keyframes flapArm {
+                0%, 49% { transform: scaleY(1); }   /* Руки вверх */
+                50%, 100% { transform: scaleY(-1); } /* Руки отзеркалены вниз */
+            }
+        </style>
+
+        <!-- Тот самый фильтр для скругления и объединения! -->
+        <filter id="round-and-merge">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="1.5" result="blur" />
+            <feColorMatrix in="blur" mode="matrix" values="
+                1 0 0 0 0  
+                0 1 0 0 0  
+                0 0 1 0 0  
+                0 0 0 15 -6" result="sharp" />
+        </filter>
+    </defs>
+
+    <!-- Общая группа для парения логотипа -->
+    <g class="robot">
+        <!-- Оборачиваем ВСЕ элементы в группу с нашим фильтром -->
+        <g filter="url(#round-and-merge)" fill="#6B537E">
+            
+            <!-- ВЕКИ (Встроены прямо в координаты отверстий глаз) -->
+            <rect x="43.8" y="50.6" width="13.5" height="13.5" class="eyelid" />
+            <rect x="70.6" y="50.6" width="13.5" height="13.5" class="eyelid" />
+
+            <!-- ЛЕВАЯ РУКА -->
+            <path class="left-arm" d="M17.0992 37.28H3.69922V64.08H17.0992V37.28Z" />
+
+            <!-- ПРАВАЯ РУКА -->
+            <path class="right-arm" d="M124.22 37.29H110.82V64.09H124.22V37.29Z" />
+
+            <!-- ОСНОВНОЕ ТЕЛО (Ноги, Антенны, Туловище с дырками для глаз) -->
+            <g class="body-static">
+                <!-- Ноги -->
+                <path d="M43.8607 104.24H30.4707V117.63H43.8607V104.24Z" />
+                <path d="M97.4291 104.24H84.0391V117.63H97.4291V104.24Z" />
+                <!-- Антенны -->
+                <path d="M43.8705 10.51H30.4805V23.9H43.8705V10.51Z" />
+                <path d="M97.4291 10.51H84.0391V23.9H97.4291V10.51Z" />
+                <!-- Туловище -->
+                <path d="M97.4598 64.08V37.3H84.0398V23.9H70.6498V37.3H57.2598V23.9H43.8698V37.3H30.4798V64.08H17.0898V77.47H30.4798V90.87H43.8698V104.25H57.2598V90.87H70.6498V104.25H84.0398V90.87H97.4598V77.47H110.83V64.08H97.4598ZM57.2498 64.08H43.8598V50.69H57.2498V64.08ZM84.0298 64.08H70.6398V50.69H84.0298V64.08Z" />
+            </g>
+
+        </g>
+    </g>
+</svg>
