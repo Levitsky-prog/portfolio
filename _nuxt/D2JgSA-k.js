@@ -1,0 +1,1 @@
+import{i as r,b as s,c as t,D as n}from"./DbrTs_I5.js";const o={};function c(e,a){return s(),t("tr",null,[n(e.$slots,"default")])}const _=Object.assign(r(o,[["render",c]]),{__name:"ProseTr"});export{_ as default};
