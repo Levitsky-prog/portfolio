@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUNA CRUST — Artisan Bakery & Pastry</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;900&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <style>
+        :root { --bg: #fdfaf5; --bread: #8b4513; --crust: #c26a45; --text: #2d1e17; --cream: #fffcf7; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background: var(--bg); color: var(--text); font-family: 'Quicksand', sans-serif; line-height: 1.6; overflow-x: hidden; }
+        h1, h2, h3 { font-family: 'Outfit', sans-serif; font-weight: 900; color: var(--bread); }
+        
+        nav { position: fixed; top: 0; width: 100%; padding: 40px 8vw; display: flex; justify-content: space-between; align-items: center; z-index: 100; background: linear-gradient(to bottom, var(--bg), transparent); }
+        .logo { font-size: 1.5rem; letter-spacing: -1px; }
+        .nav-links a { text-decoration: none; color: var(--text); margin-left: 40px; font-weight: 700; font-size: 0.9rem; opacity: 0.6; transition: 0.3s; }
+        .nav-links a:hover { opacity: 1; color: var(--crust); }
+
+        section { padding: 150px 8vw; }
+
+        /* Hero */
+        .hero { height: 100vh; display: flex; flex-direction: column; justify-content: center; text-align: center; }
+        .hero h1 { font-size: clamp(4rem, 15vw, 12rem); line-height: 0.8; margin-bottom: 20px; }
+        .hero p { font-size: 2rem; color: var(--crust); margin-bottom: 50px; font-weight: 400; }
+        
+        .btn { display: inline-block; padding: 22px 60px; background: var(--bread); color: #fff; text-decoration: none; font-weight: 700; border-radius: 100px; transition: 0.4s; }
+        .btn:hover { background: var(--crust); transform: translateY(-5px); box-shadow: 0 15px 40px rgba(139, 69, 19, 0.2); }
+
+        /* The Craft */
+        .craft { display: grid; grid-template-columns: 1fr 1fr; gap: 100px; align-items: center; }
+        .craft h2 { font-size: 4rem; margin-bottom: 30px; }
+        .craft-steps { margin-top: 40px; }
+        .step { margin-bottom: 40px; display: flex; gap: 30px; }
+        .step-num { font-size: 3rem; color: var(--crust); font-weight: 900; line-height: 1; }
+
+        /* Daily Bread Grid */
+        .bread-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; margin-top: 80px; }
+        .bread-card { background: var(--cream); padding: 50px; border-radius: 40px; border: 1px solid rgba(139, 69, 19, 0.05); transition: 0.5s; text-align: center; }
+        .bread-card:hover { border-color: var(--crust); transform: scale(1.02); }
+        .bread-card .tag { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 2px; color: var(--crust); font-weight: 700; margin-bottom: 15px; display: block; }
+        .bread-card h3 { font-size: 2rem; margin-bottom: 15px; }
+
+        /* Workshops */
+        .workshops { background: var(--bread); color: #fff; border-radius: 60px; margin: 0 4vw; padding: 120px 8vw; }
+        .workshops h2 { color: #fff; font-size: 4rem; margin-bottom: 30px; }
+        .workshops p { font-size: 1.5rem; opacity: 0.9; max-width: 700px; margin-bottom: 50px; }
+
+        footer { padding: 80px 8vw; text-align: center; border-top: 1px solid rgba(0,0,0,0.05); }
+
+        .reveal { opacity: 0; transform: translateY(40px); }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">LUNA CRUST</div>
+        <div class="nav-links">
+            <a href="#craft">The Craft</a>
+            <a href="#menu">Daily Menu</a>
+            <a href="#workshops">Workshops</a>
+            <a href="#order">Order</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <h1 class="reveal">HOMEMADE<br>SOUUL</h1>
+        <p class="reveal">Bread that smells like home. 36-hour sourdough, authentic French butter, and the slow magic of time.</p>
+        <div class="reveal"><a href="#" class="btn">See Today's Bake</a></div>
+    </section>
+
+    <section id="craft" class="craft">
+        <div class="reveal">
+            <h2>The Art of the Slow Rise</h2>
+            <p style="font-size: 1.3rem;">We don't use commercial yeast. We don't use additives. Our bakery is a living laboratory where we respect the natural fermentation process.</p>
+            <div class="craft-steps">
+                <div class="step reveal">
+                    <div class="step-num">01</div>
+                    <div>
+                        <h3>The Starter</h3>
+                        <p>A 50-year-old sourdough culture that gives our bread its unique soul.</p>
+                    </div>
+                </div>
+                <div class="step reveal">
+                    <div class="step-num">02</div>
+                    <div>
+                        <h3>The Cold Proof</h3>
+                        <p>36 hours of fermentation to develop deep flavor and a perfect crust.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="reveal" style="background: var(--cream); height: 600px; border-radius: 50px; display: flex; align-items: center; justify-content: center; font-style: italic; color: var(--crust); opacity: 0.5;">
+            [Cinematic Sourdough Shot]
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2 class="reveal" style="text-align: center; font-size: 4rem;">Today's Specials</h2>
+        <div class="bread-grid">
+            <div class="bread-card reveal">
+                <span class="tag">Signature</span>
+                <h3>Country Sourdough</h3>
+                <p>Thick crust, airy crumb, and the perfect tang. Our daily bestseller.</p>
+            </div>
+            <div class="bread-card reveal">
+                <span class="tag">Pastry</span>
+                <h3>Pistachio Croissant</h3>
+                <p>Twice-baked with handmade pistachio praline and sea salt.</p>
+            </div>
+            <div class="bread-card reveal">
+                <span class="tag">Special</span>
+                <h3>Kalamata Olive Flat</h3>
+                <p>Rich sourdough base with briny olives and organic rosemary.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="workshops" class="workshops">
+        <h2 class="reveal">Join the Craft</h2>
+        <p class="reveal">Learn the secrets of bread making in our weekend masterclasses. From nurturing your first starter to achieving the ultimate golden crust.</p>
+        <div class="reveal"><a href="#" class="btn" style="background: #fff; color: var(--bread);">Book a Class</a></div>
+    </section>
+
+    <footer>
+        <p>© 2026 LUNA CRUST ARTISAN BAKERY</p>
+        <p style="margin-top: 10px; opacity: 0.5;">AMSTERDAM • COPENHAGEN • BERLIN</p>
+    </footer>
+
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+
+        document.querySelectorAll('.reveal').forEach((el) => {
+            gsap.to(el, {
+                scrollTrigger: {
+                    trigger: el,
+                    start: "top 90%",
+                    toggleActions: "play none none none"
+                },
+                opacity: 1,
+                y: 0,
+                duration: 1.2,
+                ease: "power3.out"
+            });
+        });
+    </script>
+</body>
+</html>

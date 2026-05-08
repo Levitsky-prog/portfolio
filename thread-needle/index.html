@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THREAD & NEEDLE — Premium Tailoring Atelier</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <style>
+        :root { --bg: #050a15; --gold: #d4af37; --text: #e0e0e0; --accent: #0f1a2e; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background: var(--bg); color: var(--text); font-family: 'Montserrat', sans-serif; line-height: 1.6; overflow-x: hidden; }
+        h1, h2, h3 { font-family: 'Playfair Display', serif; }
+        
+        nav { position: fixed; top: 0; width: 100%; padding: 40px 8vw; display: flex; justify-content: space-between; align-items: center; z-index: 100; border-bottom: 1px solid rgba(212, 175, 55, 0.1); background: var(--bg); }
+        .logo { font-size: 1.5rem; letter-spacing: 2px; }
+        .nav-links a { color: var(--text); text-decoration: none; margin-left: 40px; font-size: 0.75rem; letter-spacing: 2px; text-transform: uppercase; opacity: 0.6; transition: 0.3s; }
+        .nav-links a:hover { opacity: 1; color: var(--gold); }
+
+        section { padding: 150px 10vw; }
+
+        /* Hero */
+        .hero { height: 100vh; display: flex; flex-direction: column; justify-content: center; }
+        .hero h1 { font-size: clamp(4rem, 15vw, 10rem); line-height: 1; color: var(--gold); margin-bottom: 30px; }
+        .hero p { font-size: 1.8rem; font-weight: 300; max-width: 800px; opacity: 0.8; }
+        
+        .btn { display: inline-block; padding: 22px 65px; background: var(--gold); color: #000; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 3px; margin-top: 50px; transition: 0.4s; }
+        .btn:hover { background: #fff; transform: translateY(-5px); box-shadow: 0 10px 40px rgba(212, 175, 55, 0.3); }
+
+        /* Journey */
+        .journey-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 40px; margin-top: 80px; }
+        .journey-card { background: var(--accent); padding: 60px; border-left: 2px solid var(--gold); transition: 0.5s; }
+        .journey-card:hover { background: #152542; transform: translateX(10px); }
+        .journey-card .num { font-size: 0.8rem; opacity: 0.4; margin-bottom: 20px; display: block; }
+        .journey-card h3 { font-size: 2.2rem; margin-bottom: 20px; }
+
+        /* Fabrics */
+        .fabrics { background: #000; text-align: center; padding: 150px 10vw; border-radius: 50px; margin: 0 4vw; }
+        .fabrics h2 { font-size: 4rem; color: var(--gold); margin-bottom: 40px; }
+        .mills { display: flex; justify-content: center; gap: 60px; margin-top: 50px; opacity: 0.4; font-weight: 700; letter-spacing: 5px; text-transform: uppercase; }
+
+        /* Footer */
+        footer { padding: 80px 10vw; display: flex; justify-content: space-between; opacity: 0.3; font-size: 0.8rem; }
+
+        .reveal { opacity: 0; transform: translateY(40px); }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">THREAD & NEEDLE</div>
+        <div class="nav-links">
+            <a href="#journey">The Journey</a>
+            <a href="#fabrics">Fabrics</a>
+            <a href="#atelier">Atelier</a>
+            <a href="#consultation">Consultation</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <h1 class="reveal">MADE TO<br>MEASURE</h1>
+        <p class="reveal">Clothing that fits perfectly. Every stitch is a testament to the art of bespoke tailoring and timeless elegance.</p>
+        <div class="reveal"><a href="#" class="btn">Book Private Fitting</a></div>
+    </section>
+
+    <section id="journey">
+        <h2 class="reveal" style="font-size: 4rem;">The Bespoke Journey</h2>
+        <div class="journey-grid">
+            <div class="journey-card reveal">
+                <span class="num">STEP 01</span>
+                <h3>Consultation</h3>
+                <p>We discuss your lifestyle, body type, and aesthetic goals to select the perfect silhouette and cloth.</p>
+            </div>
+            <div class="journey-card reveal" style="transition-delay: 0.1s">
+                <span class="num">STEP 02</span>
+                <h3>Measurement</h3>
+                <p>A comprehensive anatomical measurement process capturing over 30 unique points for a precise fit.</p>
+            </div>
+            <div class="journey-card reveal" style="transition-delay: 0.2s">
+                <h3>The Fitting</h3>
+                <p>A basted fitting where the garment is assembled by hand for you to try on and refine the details.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="fabrics" class="fabrics">
+        <h2 class="reveal">World-Class Mills</h2>
+        <p class="reveal" style="max-width: 800px; margin: 0 auto;">We partner with the world's most prestigious textile houses to ensure your garment feels as good as it looks. From Super 180s wool to pure cashmere.</p>
+        <div class="mills reveal">
+            <span>LORO PIANA</span>
+            <span>DORMEUIL</span>
+            <span>VBC</span>
+        </div>
+    </section>
+
+    <section id="consultation" style="text-align: center;">
+        <h2 class="reveal">Request a Consultation</h2>
+        <p class="reveal">Begin your journey towards the perfect garment. Our tailors are available for private appointments.</p>
+        <div class="reveal" style="margin-top: 50px;"><a href="#" class="btn">Schedule Now</a></div>
+    </section>
+
+    <footer>
+        <div>© 2026 THREAD & NEEDLE BESPOKE ATELIER</div>
+        <div>LONDON • SAVILE ROW • NEW YORK</div>
+    </footer>
+
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+
+        document.querySelectorAll('.reveal').forEach((el) => {
+            gsap.to(el, {
+                scrollTrigger: {
+                    trigger: el,
+                    start: "top 90%",
+                    toggleActions: "play none none none"
+                },
+                opacity: 1,
+                y: 0,
+                duration: 1.5,
+                ease: "power4.out"
+            });
+        });
+    </script>
+</body>
+</html>
